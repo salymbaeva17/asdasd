@@ -1,3 +1,19 @@
+const task3 = array => {
+ return array.reduce((acc, item) => [...acc, item.id], [])
+}
+acc = []
+acc = [1]
+acc = [1, 2]
+acc = [1, 2, 3]
+acc = [1, 2, 3, 4]
+const task3_1 = array => array.map(item => item.id)
+
+console.log(task3([{id: 1},{id: 2},{id: 3},{id: 4}]))
+console.log(task3_1([{id: 1},{id: 2},{id: 3},{id: 4}]))
+console.log(task3([{id: true}]))
+console.log(task3_1([{id: true}]))
+
+
 const task11 = array => {
     return array.reduce((acc, item, idx)=> {
         return {...acc, [`field${[idx+ 1]}`]: item}
