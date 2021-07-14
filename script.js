@@ -1,3 +1,12 @@
+const task11 = array => {
+    return array.reduce((acc, item, idx)=> {
+        return {...acc, [`field${[idx+ 1]}`]: item}
+    }, {})
+}
+
+console.log(task11([true,1,'wow','you are smart, bro']))
+
+
 const task12 = obj =>{
     return Object.keys(obj).reduce((acc, item) => {
         if (typeof obj[item] === "string" ) {
