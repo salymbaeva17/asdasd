@@ -1,3 +1,20 @@
+const film = {
+    title: "Avengers",
+    year: 2020,
+    actors: ["Robert Downey Jr", "Scarlett Johansson"],
+    address: {
+        city: "Bishkek",
+        phone: "+996555555555",
+        email: "avengers-bishkek@gmail.com"
+    }
+}
+console.log(film)
+console.log(film.actors) // [ 'Robert Downey Jr', 'Scarlett Johansson' ]
+console.log(film.actors[0]) // Robert Downey Jr
+console.log(film.address) // {city: 'Bishkek',phone: +996555555555, email: 'avengers-bishkek@gmail.com}
+console.log(film.address.email) // avengers-bishkek@gmail.com
+
+
 const books = [
     {id: 1, title: "Master and Margarita", author: "M. Bulgakov"},
     {id: 2, title: "Romeo and Juliette", author: "W. Shakespeare"},
