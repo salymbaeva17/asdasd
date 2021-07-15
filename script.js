@@ -1,3 +1,20 @@
+const books = [
+    {id: 1, title: "Master and Margarita", author: "M. Bulgakov"},
+    {id: 2, title: "Romeo and Juliette", author: "W. Shakespeare"},
+    {id: 3, title: "War and peace", author: "L. Tolstoy"}
+]
+
+let myBook = books.find(item => item.id === 2) // { id: 2, title: 'Romeo and Juliette', author: 'W. Shakespeare' }
+console.log(myBook)
+
+let input = "and"
+let input2 = "s"
+let result = books.filter(item => item.title.includes(input))
+let result2 = books.filter(item => item.title.includes(input2))
+console.log(result)
+console.log(result2)
+
+
 const task3 = array => {
  return array.reduce((acc, item) => [...acc, item.id], [])
 }
