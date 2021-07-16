@@ -1,3 +1,17 @@
+let movie = {
+    title: "Avatar",
+    year: 2009,
+    genre: "fantastic",
+    type: "HD RIP"
+}
+movie.year = 2025
+console.log(movie)
+console.log(Object.keys(movie)) // [ 'title', 'year', 'genre', 'type' ]
+console.log(Object.values(movie)) // [ 'Avatar', 2025, 'fantastic', 'HD RIP' ]
+console.log(Object.entries(movie)) //[[ 'title', 'Avatar' ],[ 'year', 2025 ],[ 'genre', 'fantastic' ],[ 'type', 'HD RIP' ]]
+
+
+
 const room ={
     width: 500,
     height: 600,
