@@ -1,3 +1,13 @@
+const obj10 = {
+    Ширин: '1000',
+    Айжан:'500',
+    Атай: {
+        salary: '500'
+    }
+}
+console.log(Object.values(obj10),Object.values(obj10.Атай))
+
+
 const obj11 = {
     Ширин: '1000',
     Айжан:'500',
