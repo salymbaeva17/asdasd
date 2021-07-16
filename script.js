@@ -1,3 +1,13 @@
+const obj11 = {
+    Ширин: '1000',
+    Айжан:'500',
+    Атай: {
+        salary: '500'
+    }
+}
+console.log(Object.entries(obj11), Object.entries((obj11.Атай)))
+
+
 const task12_1 = obj =>{
     return obj.name.length % 2 === 0 ? 0 : 1
 }
