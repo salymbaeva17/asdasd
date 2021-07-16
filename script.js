@@ -1,3 +1,14 @@
+const task13_0 = array =>{
+    return array.map(item => item.id)
+}
+//или
+const task13_1 = array =>{
+    return array.map(item => Object.keys(item))
+}
+console.log(task13_0( [ {id: 3}, {id: 5}, {id: 6}, {id: 7} ]))
+console.log(task13_1( [ {id: 3}, {id: 5}, {id: 6}, {id: 7} ]))
+
+
 const userData = obj =>{
     obj.age = 25
     obj.name = "Azat"
