@@ -1,3 +1,21 @@
+const car = {
+    model: "Tesla",
+    year: 2021,
+    color: "red",
+    variable: 56
+}
+
+let variable = "model"
+console.log(car.variable) // 56 // ищет ключ в объекте
+console.log(car[variable]) // Tesla // используем когда ключ хранится в переменной только без кавычек
+console.log(car["variable"]) // 56 // ищет ключ в объекте
+console.log(car)
+car.wheels = 4 // добавили новый ключ
+car.color = "magenta" // изменили значение уже созданного ключа
+console.log(car)
+console.log({} === {}) // false - 2 объекта не равны
+
+
 let movie = {
     title: "Avatar",
     year: 2009,
