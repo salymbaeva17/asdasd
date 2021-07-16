@@ -1,3 +1,18 @@
+let user ={
+    "my name": "Ivan",
+    age: 30,
+    city: "Bishkek"
+}
+.split(",")
+console.log(user)
+console.log(user.age)
+console.log(user["age"])
+console.log(user["my name"]) //квадратные скобки исп-ся только когда ключ состоит из 2-х и более слов
+
+delete user.age //удалили 30 из объекта
+console.log(user)
+
+
 const car = {
     model: "Tesla",
     year: 2021,
