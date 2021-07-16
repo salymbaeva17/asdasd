@@ -1,3 +1,13 @@
+const room ={
+    width: 500,
+    height: 600,
+    color: "light"
+}
+Object.freeze(room) // замораживаем объект - теперь нельзя изменять значения бывших ключей и добавлять новые
+room.color = "purple"
+console.log(room)
+
+
 const film = {
     title: "Avengers",
     year: 2020,
