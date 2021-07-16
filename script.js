@@ -1,3 +1,9 @@
+const task12_1 = obj =>{
+    return obj.name.length % 2 === 0 ? 0 : 1
+}
+console.log(task12_1({name: "Igor"}))
+
+
 const task13_0 = array =>{
     return array.map(item => item.id)
 }
