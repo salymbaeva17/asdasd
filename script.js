@@ -1,3 +1,11 @@
+const userData = obj =>{
+    obj.age = 25
+    obj.name = "Azat"
+    return obj
+}
+console.log(userData({name: "Igor"}))
+
+
 const product = {
     name: "headphones",
     price: 100,
