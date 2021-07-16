@@ -1,3 +1,18 @@
+const product = {
+    name: "headphones",
+    price: 100,
+    discount: 0
+}
+if (product.price > 100){
+    product.price = product.price - (product.price * 0.1)
+    product.discount = "10%"
+} else{
+    product.price = product.price - (product.price * 0.07)
+    product.discount = "7%"
+}
+console.log(product)
+
+
 let user ={
     "my name": "Ivan",
     age: 30,
