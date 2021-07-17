@@ -1,3 +1,13 @@
+const obj6 = {
+    Ширин: '1000',
+    Айжан: '500',
+    Атай: {
+        salary: '500'
+    }
+}
+console.log(obj6.Атай.salary)
+
+
 const today1 = {
     1: "Monday",
     2: "Tuesday",
