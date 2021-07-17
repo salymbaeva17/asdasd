@@ -1,3 +1,13 @@
+const obj2 = {
+    a: 1,
+    b: 2,
+    c: 3
+}
+console.log(obj2["c"])
+console.log(obj2.c)
+console.log(Object.values(obj2)[2])
+
+
 const obj3 = {
     Ширин: '1000',
     Айжан: '500',
