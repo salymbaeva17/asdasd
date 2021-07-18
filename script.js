@@ -1,3 +1,8 @@
+let a2 = 100
+a2 = a2 * 2
+console.log(a2)
+
+
 let a1 = 10
 let b = 2
 let c = 5
