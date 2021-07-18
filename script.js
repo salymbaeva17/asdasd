@@ -1,3 +1,12 @@
+let a1 = 10
+let b = 2
+let c = 5
+console.log( a1 + b + c )
+// or
+let d = a1 + b + c
+console.log(d)
+
+
 let a = 10
 console.log(a)
 
