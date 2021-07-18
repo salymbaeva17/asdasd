@@ -1,3 +1,7 @@
+let a = 10
+console.log(a)
+
+
 const obj1 = {
     a: 1,
     b: 2,
