@@ -1,3 +1,11 @@
+let a4 = 10
+let b2 = 2
+console.log( a4 + b2)
+console.log( a4 - b2)
+console.log( a4 * b2)
+console.log( a4 / b2)
+
+
 let a3 = 67
 a3 = 67 % 7
 console.log(a3)
