@@ -1,3 +1,9 @@
+let c2 = 15
+let d2 = 2
+let result3 = c2 + d2
+console.log(result3)
+
+
 let a4 = 10
 let b2 = 2
 console.log( a4 + b2)
