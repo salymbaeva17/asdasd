@@ -1,3 +1,11 @@
+let a6 = 17
+let b6 = 10
+let c6 = a6 - b6
+let d6 = 15
+let result6 = c6 + d6
+console.log(result6)
+
+
 let a5 = 30
 let b5 = 15
 let c5 = a5 + b5
