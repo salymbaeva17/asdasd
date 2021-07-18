@@ -1,3 +1,8 @@
+let a3 = 67
+a3 = 67 % 7
+console.log(a3)
+
+
 let a2 = 100
 a2 = a2 * 2
 console.log(a2)
