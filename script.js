@@ -1,3 +1,11 @@
+let a5 = 30
+let b5 = 15
+let c5 = a5 + b5
+console.log(c5)
+console.log( c5 % 4)
+
+
+
 let c2 = 15
 let d2 = 2
 let result3 = c2 + d2
