@@ -1,3 +1,9 @@
+let a7 = "10"
+let b7= "99"
+let result7 = a7 + b7
+console.log(result7)
+
+
 let a6 = 17
 let b6 = 10
 let c6 = a6 - b6
