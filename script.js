@@ -1,3 +1,8 @@
+let a16 = 20
+let b16 = 21
+console.log( a16 > b16)
+
+
 let a15 = 17
 let b15 = 7
 console.log(a15 % b15)
