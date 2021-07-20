@@ -1,3 +1,8 @@
+let a15 = 17
+let b15 = 7
+console.log(a15 % b15)
+
+
 let a14 = 18
 let b14 = 7
 console.log(a14 % b14)
