@@ -1,4 +1,6 @@
-
+let a11 = 50
+a = a11 * 5
+console.log(a11)
 
 
 let a10 = 20
