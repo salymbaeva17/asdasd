@@ -1,7 +1,17 @@
-let a = 20
-let b = 10
-a = a + b
-console.log(a)
+
+
+
+let a10 = 20
+let b10 = 10
+b10 = a10 - b10
+console.log(b10)
+
+
+
+let a8 = 20
+let b8 = 10
+a9 = a8 + b8
+console.log(a9)
 
 
 let name8 = "Аскар"
