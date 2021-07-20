@@ -1,3 +1,8 @@
+let a17 = 20
+let b17 = 21
+console.log( a17 < b17)
+
+
 let a16 = 20
 let b16 = 21
 console.log( a16 > b16)
