@@ -1,3 +1,8 @@
+let a12 = 660
+a12 = a12 / 2
+console.log(a12)
+
+
 let a11 = 50
 a = a11 * 5
 console.log(a11)
