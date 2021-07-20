@@ -1,3 +1,8 @@
+let a13 = 24
+let b13 = 6
+console.log( a13 % b13)
+
+
 let a12 = 660
 a12 = a12 / 2
 console.log(a12)
