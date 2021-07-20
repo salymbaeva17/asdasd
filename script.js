@@ -1,3 +1,9 @@
+let a = 20
+let b = 10
+a = a + b
+console.log(a)
+
+
 let name8 = "Аскар"
 let number8 = 10
 let result1 = name8 + number8
