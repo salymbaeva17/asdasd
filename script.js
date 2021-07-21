@@ -1,3 +1,7 @@
+let age = 17
+console.log(age)
+
+
 let name = "Aitolkun"
 console.log(name)
 
