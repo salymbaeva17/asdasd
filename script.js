@@ -1,3 +1,7 @@
+let a20 = "домашнее"
+console.log([a20.length])
+
+
 let b18 = "программирование"
 console.log([b18.length - 1])
 
