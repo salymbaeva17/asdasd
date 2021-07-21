@@ -1,3 +1,8 @@
+let str1 = "Привет, "
+let str2 = "Мир!"
+console.log(`${str1}${str2}`)
+
+
 let str = "Привет, Мир!"
 console.log(str)
 
