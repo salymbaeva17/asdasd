@@ -1,3 +1,7 @@
+let name = "Aitolkun"
+console.log(name)
+
+
 let a17 = 20
 let b17 = 21
 console.log( a17 < b17)
