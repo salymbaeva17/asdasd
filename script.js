@@ -1,3 +1,7 @@
+let b18 = "программирование"
+console.log([b18.length - 1])
+
+
 let a19 = "информатика"
 console.log(a19.length)
 
