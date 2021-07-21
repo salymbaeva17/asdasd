@@ -1,3 +1,8 @@
+let welcome = "Welcome"
+let name2 = "Ivan"
+console.log(`${welcome}, ${name2}!`)
+
+
 let days = 365
 let planet = "Земля"
 let population = "7 млрд."
