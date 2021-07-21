@@ -1,3 +1,7 @@
+let str = "Привет, Мир!"
+console.log(str)
+
+
 let age = 17
 console.log(age)
 
