@@ -1,3 +1,10 @@
+let days = 365
+let planet = "Земля"
+let population = "7 млрд."
+let sun = "Солнце"
+console.log(`В нашем году ${days} дней. Днём у нас светит ${sun}. Население планеты ${planet} составляет примерно ${population} человек.`)
+
+
 let age1 = 17
 console.log( `Мне ${age1} лет!`)
 
