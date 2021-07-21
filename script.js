@@ -1,3 +1,8 @@
+let name1 = "Aitolkun"
+console.log("Привет, " + name1 + "!")
+
+
+
 let str1 = "Привет, "
 let str2 = "Мир!"
 console.log(`${str1}${str2}`)
@@ -46,7 +51,7 @@ console.log(a12)
 
 
 let a11 = 50
-a = a11 * 5
+a11 = a11 * 5
 console.log(a11)
 
 
