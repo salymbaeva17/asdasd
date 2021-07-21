@@ -1,6 +1,9 @@
+let age1 = 17
+console.log( `Мне ${age1} лет!`)
+
+
 let name1 = "Aitolkun"
 console.log("Привет, " + name1 + "!")
-
 
 
 let str1 = "Привет, "
