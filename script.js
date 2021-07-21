@@ -1,3 +1,7 @@
+let a19 = "информатика"
+console.log(a19.length)
+
+
 let welcome = "Welcome"
 let name2 = "Ivan"
 console.log(`${welcome}, ${name2}!`)
