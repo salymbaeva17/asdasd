@@ -1,3 +1,13 @@
+let a26 = 1
+if ( a26 < 0){
+    console.log("negative")
+} else if ( a26 === 0 ){
+    console.log("0")
+} else {
+    console.log("positive")
+}
+
+
 let a25 = 50
 let b25 = 100
 if ( a25 > b25 ){
