@@ -1,3 +1,7 @@
+let string = "string"
+console.log(typeof string)
+
+
 let a23 = "10"
 console.log(typeof a23)
 
