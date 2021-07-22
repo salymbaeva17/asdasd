@@ -1,3 +1,9 @@
+let a22 = 10
+let b22 = 35
+let result22 = ` ${a22} + ${b22} `
+console.log(typeof result22)
+
+
 let a21 = 50
 console.log(typeof a21)
 
