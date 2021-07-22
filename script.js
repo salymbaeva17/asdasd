@@ -1,3 +1,11 @@
+let a24 = 10
+if ( a24 === 10){
+    console.log("Верно")
+} else {
+    console.log("Неверно")
+}
+
+
 let str15 = "Мы выполняем домашнее задание"
 console.log(str15.substring(13,21).length)
 
@@ -337,7 +345,7 @@ let user ={
     age: 30,
     city: "Bishkek"
 }
-.split(",")
+// .split(",")
 console.log(user)
 console.log(user.age)
 console.log(user["age"])
