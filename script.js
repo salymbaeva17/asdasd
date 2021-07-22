@@ -1,3 +1,7 @@
+let number = 27
+console.log(typeof number)
+
+
 let string = "string"
 console.log(typeof string)
 
