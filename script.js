@@ -1,3 +1,7 @@
+let a23 = "10"
+console.log(typeof a23)
+
+
 let a22 = 10
 let b22 = 35
 let result22 = ` ${a22} + ${b22} `
