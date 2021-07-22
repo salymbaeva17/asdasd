@@ -1,3 +1,7 @@
+let str15 = "Мы выполняем домашнее задание"
+console.log(str15.substring(13,21).length)
+
+
 let boolean = true
 console.log(typeof boolean)
 
