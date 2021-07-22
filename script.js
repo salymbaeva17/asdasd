@@ -1,3 +1,12 @@
+let a25 = 50
+let b25 = 100
+if ( a25 > b25 ){
+    console.log("a больше b")
+} else if ( a25 < b25 ){
+    console.log("a меньше b")
+}
+
+
 let a24 = 10
 if ( a24 === 10){
     console.log("Верно")
