@@ -1,3 +1,7 @@
+let a21 = 50
+console.log(typeof a21)
+
+
 let a20 = "домашнее"
 console.log([a20.length])
 
