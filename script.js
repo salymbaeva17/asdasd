@@ -1,3 +1,7 @@
+let boolean = true
+console.log(typeof boolean)
+
+
 let number = 27
 console.log(typeof number)
 
