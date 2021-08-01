@@ -1,3 +1,29 @@
+function season(month) {
+    if (month === 1 || month === 2 || month === 12) {
+        return "Winter"
+    } else if (month >= 3 && month <= 5) {
+        return "Spring"
+    } else if (month >= 6 && month <= 8) {
+        return "Summer"
+    } else if (month >= 9 && month <= 11) {
+        return "Autumn"
+    }
+}
+
+console.log(season(1))
+console.log(season(2))
+console.log(season(3))
+console.log(season(4))
+console.log(season(5))
+console.log(season(6))
+console.log(season(7))
+console.log(season(8))
+console.log(season(9))
+console.log(season(10))
+console.log(season(11))
+console.log(season(12))
+
+
 function decade(day) {
     if (day >= 1 && day <= 10) {
         return "First decade"
