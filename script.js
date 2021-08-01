@@ -1,3 +1,17 @@
+// function task6(s) {
+//     if (typeof s === "string") {
+//         return "String"
+//     } else if (typeof s === "number") {
+//         return "Number"
+//     } else if (typeof s === "boolean") {
+//         return "Boolean"
+//     }
+// }
+//
+// console.log(task6(14))
+// console.log(task6(true))
+// console.log(task6("Hello!"))
+
 function num3(a) {
     if (a > 1 && a < 99) {
         return "Верно"
