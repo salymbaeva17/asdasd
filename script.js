@@ -10,6 +10,16 @@
 // console.log(divide(10, 2))
 
 
+// function a(number) {
+//     if (number % 2 === 0) {
+//         return "Четное число"
+//     }
+//     return "Нечетное число"
+// }
+//
+// console.log(a(24))
+// console.log(a(27))
+
 // function task6(s) {
 //     if (typeof s === "string") {
 //         return "String"
