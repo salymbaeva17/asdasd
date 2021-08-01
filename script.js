@@ -1,3 +1,15 @@
+function num3(a) {
+    if (a > 1 && a < 99) {
+        return "Верно"
+    }
+    return "Неверно"
+}
+
+console.log(num3(76))
+console.log(num3(0))
+console.log(num3(100))
+
+
 function num4(a) {
     if (a === 3 || a === 7) {
         return a + 7
