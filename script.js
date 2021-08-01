@@ -1,3 +1,16 @@
+function num4(a) {
+    if (a === 3 || a === 7) {
+        return a + 7
+    }
+    return a / 10
+}
+
+console.log(num4(3))
+console.log(num4(9))
+console.log(num4(7))
+console.log(num4(0))
+
+
 function num5(a, b) {
     if (a <= 0 && b >= 5) {
         return a + b
