@@ -1,3 +1,14 @@
+ function num6(a, b) {
+    if (a > 7 && a < 12 || b >= 7 && b < 27) {
+        return "Верно"
+    }
+    return "Неверно"
+}
+
+console.log(num6(8, 20))
+console.log(num6(5, 15))
+
+
 function season(month) {
     if (month === 1 || month === 2 || month === 12) {
         return "Winter"
