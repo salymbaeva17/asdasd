@@ -10,6 +10,18 @@
 // console.log(divide(10, 2))
 
 
+// function num1(a, b) {
+//     if (a > b) {
+//         return `${a} больше ${b}`
+//     }
+//     return `${a} меньше ${b}`
+//
+// }
+//
+// console.log(num1(12, 20))
+// console.log(num1(12, 7))
+
+
 // function num2(a) {
 //     if (a > 0) {
 //         return "positive"
