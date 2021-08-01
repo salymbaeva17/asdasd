@@ -1,3 +1,15 @@
+
+// function divide(a, b) {
+//     if (a % b === 0) {
+//         return "delitsya"
+//     }
+//     return "ne delitsya"
+// }
+//
+// console.log(divide(10, 9))
+// console.log(divide(10, 2))
+
+
 // function task6(s) {
 //     if (typeof s === "string") {
 //         return "String"
