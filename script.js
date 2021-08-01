@@ -1,3 +1,15 @@
+function num5(a, b) {
+    if (a <= 0 && b >= 5) {
+        return a + b
+    }
+    return a - b
+}
+
+console.log(num5(-2, 8))
+console.log(num5(0, 5))
+console.log(num5(1, 4))
+
+
  function num6(a, b) {
     if (a > 7 && a < 12 || b >= 7 && b < 27) {
         return "Верно"
